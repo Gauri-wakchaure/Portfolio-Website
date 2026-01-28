@@ -158,9 +158,12 @@ nav a:hover {
 
 /* Title */
 .about h3 {
+    font-size: 30px;
+    margin-top: 15px;
     margin-bottom: 40px;
-    font-weight: 900;
+    font-weight: bold;
     color: #cfd8dc;
+
 }
 
 /* Text */
