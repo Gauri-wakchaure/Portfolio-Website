@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+
+}
+
+body {
+    background: #061826;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a {
+    color: #cfd8dc;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.hero-text {
+    max-width: 520px;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 span {
+    color: #2f95de;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #2f95de;
+}
+
+.hero-text h2 span {
+    color: #2f95de;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+     color: #cfd8dc;
+     margin-bottom: 15px;
+}
+
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    border: 1px solid #00bcd4;
+    padding: 6px 12px;
+    margin: 5px 5px 15px 0;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #2f95de;
+}
+
+/* Buttons */
+.buttons button {
+    padding: 10px 22px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 15px;
+    margin-top: 13px;
+}
+
+.primary {
+    background:  #2f95de;;
+    color: #071b2a;
+
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid #00bcd4;
+     color: #2f95de;
+}
+
+/* Image */
+
+
+.profile-image1  {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #2f95de;;
+    margin-right: 80px;
+    box-shadow: 0 0 20px  #2f95de;;
+}
+
+/* ===== ABOUT SECTION ===== */
+
+.about {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.about h2 span {
+    color: #00bcd4;
+}
+
+/* Profile Image */
+.profile-image  {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 20px  #2f95de;
+    border: 4px solid #2f95de; ;
+    margin-left: 10px;
+    box-shadow: 0 0 20px rgba(0, 188, 212, 0.6);
+}
+
+
+
+/* Title */
+.about h3 {
+    margin-bottom: 40px;
+    font-weight: 900;
+    color: #cfd8dc;
+}
+
+/* Text */
+.about p {
+    max-width: 900px;
+    margin: 10px auto;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #b0bec5;
+    font-weight: bold;
+}
+
+/* Button */
+.btn {
+    margin-top: 30px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #2f95de;;
+    color: #0b2a3d;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #2f95de;;
+}
+
+
+
+/* Footer */
+footer {
+    display: flex;
+    gap: 20px;
+    padding: 40px 80px;
+    margin-top: 0px;
+}
+
+footer a {
+    width: 60px;
+    height: 60px;
+    border: 1px solid  #2f95de;;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2f95de;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background: #00bcd4;
+    color: #071b2a;
+}
