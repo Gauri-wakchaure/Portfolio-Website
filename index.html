@@ -2,64 +2,327 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Gauri Wakchaure | Portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/PortfolioImage.jpeg">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauri Wakchaure - Java Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+  
+    <header class="header">
+        <a href="#" class="logo">GAURI.W <span class="animate" style="--i:1;"></span></a>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class="navbar">
+            <a href="#home" id="newId0" class="active" onclick="activeFunction(0)">Home</a>
+            <a href="#about" id="newId1" onclick="activeFunction(1)">About</a>
+            <a href="#projects" id="newId2" onclick="activeFunction(2)">Projects</a>
+            <a href="#education" id="newId3" onclick="activeFunction(3)">Education</a>
+            <a href="#skills" id="newId4" onclick="activeFunction(4)">Skills</a>
+            <a href="#contact" id="newId5" onclick="activeFunction(5)">Contact</a>
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
 
-<header>
-    <div class="logo">GAURI.W</div>
-    <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Education</a>
-        <a href="#">Skills</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
-
-<section class="hero">
-    <div class="hero-text">
+<section class="home show-animate" id="home">
+    <div class="home-content">
         <h1>Hi, I'm <span>Gauri Wakchaure</span></h1>
-        <h2><span>Java Full Stack Developer</span> </h2>
-
-        <p>
-        Motivated Java fresher with basic knowledge of Core Java, 
-        object-oriented programming concepts, and fundamental 
-        data structures. Familiar with writing simple Java programs 
-        and understanding program flow, along with basic skills in 
-        HTML, CSS, and JavaScript for creating simple web pages. 
-        Eager to learn,  improve coding  skills,  and grow as a  
-        software developer by working on real-world projects.
-        </p>
-
-        <div class="skills">
-            <span>Java</span>
-            <span>MySQL</span>
-            <span>JavaScript</span>
-            <span>HTML/CSS</span>
+        <div class="text">
+            <h3>Java Full Stack Developer</h3>
+        </div>
+        <p>Enthusiastic entry-level Java Developer with a strong foundation in Core Java and object-oriented programming concepts. Hands-on experience with JDBC, Hibernate (JPA), Spring Boot, and building responsive web interfaces using HTML, CSS, and JavaScript. Adept at writing clean, maintainable code and eager to contribute to scalable, real-world applications while continuously upskilling in modern full-stack development practices.</p>
+        <div class="tech-stack">
+            <div class="tech-icons">
+                <span class="tech-icon">Java</span>
+                <span class="tech-icon">MySQL</span>
+                <span class="tech-icon">JavaScript</span>
+                <span class="tech-icon">HTML/CSS</span>
+                <span class="tech-icon">C Language</span>
+            </div>
         </div>
 
-        <div class="buttons">
-            <button class="primary">Hire Me</button>
-            <button class="secondary">Let's Talk</button>
+        <div class="btn-box">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#projects" class="btn">Let's Talk</a>
         </div>
     </div>
 
-    <div class="hero-image">
-        <img src="images/PortfolioImage.jpeg" alt="Profile Image" class="profile-image1">
+    <div class="home-img">
+        <img src="images/PortfolioImage.jpeg" alt="Gauri Wakchaure">
     </div>
+
+    <div class="home-sci">
+        <a href="https://www.linkedin.com/in/gauri-wakchaure-9a2a0632a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Gauri-wakchaure" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="mailto:alexanis120@gmail.com"><i class='bx bx-envelope'></i></a>
+        <a href="tel:+916002566386"><i class='bx bx-phone'></i></a>
+    </div>
+
+    <span class="home-imgHover"></span>
 </section>
 
-<footer>
-    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    <a href="#"><i class="fab fa-github"></i></a>
-    <a href="#"><i class="fas fa-envelope"></i></a>
-    <a href="#"><i class="fas fa-phone"></i></a>
-</footer>
+<section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="images/PortfolioImage.jpeg" alt="Gauri Wakchaure">
+        </div>
+        <div class="about-content">
+            <h3>Java Full Stack Developer</h3>
+            <p>
+           <b>
+               Hello, I'm Gauri Wakchaure, a Computer Engineering student currently pursuing my B.E and based in Pune.
+               I am actively learning and building my skill through a Full Stack Java Development course.
+            <p>
+            <b>
+               I have basic knowledge of Core Java and object-oriented programming
+               concepts. I am also familiar with HTML, CSS, and JavaScript for
+               creating simple and responsive web pages.
+            </b>
+            <p>
+            <b>
+               I am a motivated fresher with a strong interest in software development,
+               seeking an entry-level opportunity where I can apply my knowledge,
+               gain hands-on experience, and grow as a professional developer.
+             </b>
+            <div class="btn-box btns">
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </div>
+    </section>
 
+    <section class="projects" id="projects">
+        <h2 class="heading">Featured <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project-icon">
+                    <i class='bx bx-folder'></i>
+                </div>
+                <h3>Stitch Theory</h3>
+                <p>Stitch Theory is a front-end e-commerce project that showcases a complete shopping and checkout flow using HTML, CSS, and JavaScript with dynamic cart functionality.</p>
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Github pages</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Gauri-wakchaure" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-icon">
+                    <i class='bx bx-folder'></i>
+                </div>
+                <h3>Portfolio Website</h3>
+                <p>Built a responsive personal website using HTML5, CSS3, and JavaScript to showcase projects and skills, deployed on GitHub Pages.</p>
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>GitHub Pages</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Gauri-wakchaure" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="educaion-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="educationbox">
+                    <div class="education-content">
+                        <div class="content">
+                         <div class="year"><i class='bx bxs-calendar'></i> Jun 2019 - July 2020</div>
+                           <h3>Higher Secondary – Maharashtra State Board of Higher Secondary Education</h3>
+                           <p> Completed Higher Secondary 10th with 91.80%
+                    from Maharashtra State Board of Higher Secondary Education, Akole, Maharashtra.
+                          </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> Sep 2020 - Jun 2023</div>
+                            <h3>Diploma in Computer Engineering – Maharashtra State Board of Technical Education (MSBTE)</h3>
+                            <p>Completed Diploma in Computer Engineering with 80%.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                         <div class="year"><i class='bx bxs-calendar'></i>Sep 2023 - Jun 2026</div>
+                            <h3>BE in Computer Engineering – SPPU University</h3>
+                            <p>“B.E. in Computer Engineering, expected to be completed in 2026.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience & Internships</h3>
+                <div class="educationbox">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> Jan 2025</div>
+                            <h3>Full Stack Web Development Internship - PantechSolutions</h3>
+                            <p>Learned HTML, CSS, JavaScript, Bootstrap. This journey deepends my skills in building responsive, dynamic and user-friendly websites. </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>May 2025 - Jun 2025</div>
+                            <h3>Web Development Intern – InternPe</h3>
+                            <p> Learned HTML, CSS, JavaScript and responsive design, and gain real world insight into building dynamic websites.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2025</div>
+                            <h3>Java Full Stack Training - FortuneCloud</h3>
+                            <p>Currently undergoing comprehensive Java Full Stack Development training covering Core Java, OOPS concepts, Collection Framework, JDBC, Hibernate (JPA), Spring Framework, HTML, CSS, JavaScript, Bootstrap and SQL.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Frontend Development</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML<span>90%</span></h3>
+                            <div class="bar"><span style="width: 90%"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS3 <span>70%</span></h3>
+                            <div class="bar"><span style="width: 70%"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span>60%</span></h3>
+                            <div class="bar"><span style="width: 60%"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Bootstrap <span>80%</span></h3>
+                            <div class="bar"><span style="width: 80%"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Backend & Database</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Core Java <span>90%</span></h3>
+                            <div class="bar"><span style="width: 90%"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Collection Framework<span>70%</span></h3>
+                            <div class="bar"><span style="width: 70%"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>MySQL <span>75%</span></h3>
+                            <div class="bar"><span style="width: 75%"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SpringBoot Framework<span>60%</span></h3>
+                            <div class="bar"><span style="width: 60%"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-additional">
+            <h3 class="title">Additional Skills & Tools</h3>
+            <div class="skills-tags">
+                <span class="skill-tag">OOP</span>
+                <span class="skill-tag">Exception Handling</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">IntelliJ IDEA</span>
+                <span class="skill-tag">VS Code</span>
+                <span class="skill-tag">Bootstrap</span>
+                <span class="skill-tag">Data Structures</span>
+                <span class="skill-tag">Algorithms</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class='bx bx-envelope'></i>
+                <p><a href="mailto:alexanis120@gmail.com">alexanis120@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <i class='bx bx-phone'></i>
+                <p><a href="tel:+916002566386">+91 6002566386</a></p>
+            </div>
+            <div class="contact-item">
+                <i class='bx bx-map'></i>
+                <p>Pune, India</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Gauri Wakchaure | Java Full Stack Developer | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
